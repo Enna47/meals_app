@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:meals_app/screens/categories_screen.dart';
+import 'package:meals_app/screens/tabs.dart';
 
 final theme = ThemeData(
   brightness: Brightness.dark,
@@ -15,7 +15,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme,
-      home: const CategoriesScreen(),
+      home: const Tabs(),
     ),
   );
 }
